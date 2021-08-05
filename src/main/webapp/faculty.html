@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="background-color: lighblue">
+
+	<h1>Welcome</h1>
+	<form action="FacultyServlet" method="post">
+		<label for="userId"><b>Enter an ID</b></label> <input type="text"
+			placeholder="Enter an Id" name="userId" required> <label
+			for="date"><b>Date:</b></label> <input type="date" id="date"
+			name="date"> <input type="radio" id="present"
+			name="attendance" value="present">   <label for="present">present</label>
+		  <input type="radio" id="absent" name="attendance" value="absent">
+		  <label for="absent">absent</label><br> <br> <input
+			type="submit">
+	</form>
+
+	<br>
+	<br>
+	<form action="LogoutServlet">
+		<input type="submit" value="logout">
+	</form>
+</body>
+</html>
+</body>
+</html>

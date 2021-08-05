@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+		<form action="CreateNewUserServlet" method="post">
+			<div>
+				<h2>Add Student</h2>
+				Student Name<input type="text" name="sdtname" required><br>
+				Student Id<input type="text" name="sdtid" required><br> Password<input
+					type="password" name="sdtpass" required><br> E-mail<input
+					type="text" name="sdtemail"><br><br><br> <input type="submit"
+					value="Add student" name = "submit"><br>
+			</div>
+		</form>
+
+		<form action="CreateNewUserServlet" method="post">
+			<div>
+				<h2>Add Faculty</h2>
+				Faculty Name<input type="text" name="facname" required><br>
+				Faculty Id<input type="text" name="facid" required><br> Password<input
+					type="password" name="facpass" required><br> E-mail<input
+					type="text" name="facemail"><br><br><br> <input type="submit"
+					value="Add faculty" name = "submit"><br>
+			</div>
+		</form>
+
+<br><br><br><br><br>
+	
+
+
+	<form action="AdminServlet" method = "post">
+		<label for="userId"><b>Enter an ID</b></label> <input type="text"
+			placeholder="Enter an Id" name="userId" required> <label
+			for="date"><b>Date:</b></label> <input type="date" id="date"
+			name="date"> <input type="radio" id="present"
+			name="attendance" value="present">   <label for="present">present</label>
+		  <input type="radio" id="absent" name="attendance" value="absent">
+		  <label for="absent">absent</label><br> <br> <input
+			type="submit">
+	</form>
+	
+	<br><br><br><br>
+	<form action="LogoutServlet">
+
+		<input type="submit" value="logout">
+
+	</form>
+</body>
+</html>
