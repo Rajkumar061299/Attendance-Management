@@ -45,7 +45,7 @@ public class StudentServlet extends HttpServlet {
 			out.println("</script>");
 
 		}
-	//	out.print("<a href = \"LogoutServlet\">Logout</a>");
+		out.print("<a href = \"LogoutServlet\">Logout</a>");
 
 	}
 
