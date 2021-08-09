@@ -1,0 +1,10 @@
+.git
+.gradle
+.settings
+bin/
+target/
+.classpath
+.gitignore
+.project
+gradlew
+settings.gradle
