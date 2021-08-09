@@ -4,3 +4,9 @@
 target/*
 .classpath
 .project
+.gradle/
+bin/
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
