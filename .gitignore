@@ -1,0 +1,13 @@
+.git
+.idea
+.settings
+target/*
+.classpath
+.project
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+/target/
+pom

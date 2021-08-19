@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+
+	<servlet>
+		<servlet-name>CreateNewUserServlet</servlet-name>
+
+		<servlet-class>main.CreateNewUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateNewUserServlet</servlet-name>
+		<url-pattern>/CreateNewUserServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>validate</servlet-name>
+		<servlet-class>main.ValidateServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>validate</servlet-name>
+		<url-pattern>/ValidateServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FacultyServlet</servlet-name>
+		<servlet-class>main.FacultyServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FacultyServlet</servlet-name>
+		<url-pattern>/FacultyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>main.AdminServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<display-name>LogoutServlet</display-name>
+		<description></description>
+		<servlet-class>main.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StudentServlet</servlet-name>
+		<display-name>StudentServlet</display-name>
+		<description></description>
+		<servlet-class>main.StudentServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/AdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StudentServlet</servlet-name>
+		<url-pattern>/StudentServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+</web-app>
