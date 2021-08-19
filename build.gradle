@@ -12,7 +12,7 @@ buildscript {    // Configuration for building
   }
 }
 
-apply plugin: 'com.google.cloud.tools.appengine
+apply plugin: 'com.google.cloud.tools.appengine'
 
 appengine {  // App Engine tasks configuration
   deploy {   // deploy configuration
